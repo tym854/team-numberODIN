@@ -11,8 +11,12 @@
 @import url('./animations.css');
 
 /* Sections style */
+@import url('./nav.css');
 @import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
+@import url('./YachtJet.css');
+@import url('./cards.css');
+@import url('./characteristics.css');
+@import url('./rent-page.css');
+@import url('./workers-info.css');
+@import url('./modal-window.css');
 @import url('./footer.css');

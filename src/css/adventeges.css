@@ -1,0 +1,49 @@
+.adventeges-section{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ol {list-style-type:none;
+    counter-reset: ol-decoration;
+
+}
+
+.adventeges-list {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-radius: 24px;
+    background-color: #1b414b;
+    max-width: 335px;
+}
+
+  .adventeges-item-text{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.16;
+        letter-spacing: -0.02em;
+        color: #fbfbfb;
+    margin-top: 18px;
+opacity: 0.8;
+text-align: start;
+}
+.adventeges-number-list {padding-right:20px;
+padding-inline-start: 20px;
+    }
+    .adventeges-item{
+        margin-top: 40px;}
+.adventeges-item::before{
+    content: "0"   counter(ol-decoration) ;
+    counter-increment: ol-decoration;
+    text-align: right;
+    font-weight: 500;
+        font-size: 28px;
+        line-height: 1;
+        letter-spacing: -0.05em;
+        color: #fbfbfb;
+}
+.rounded-recrangle-adventures {margin-top: 18px;
+    background-color: rgba(251, 251, 251, 0.1);;
+    border-radius: 18px;
+    width: 295px;
+    height: 2px;}
+    .adventeges-photo{border-radius: 24px;}

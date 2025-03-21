@@ -11,6 +11,7 @@
 @import url('./animations.css');
 
 /* Sections style */
+@import url('./adventeges.css');
 @import url('./nav.css');
 @import url('./header.css');
 @import url('./YachtJet.css');

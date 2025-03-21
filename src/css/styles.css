@@ -90,7 +90,6 @@ input {
   background: #fbfbfb;
   margin: 0 auto;
   border: none;
-  /* max-width: 295px; */
 }
 
 .title-about {
@@ -126,7 +125,28 @@ input {
 }
 
 /* tab */
+@media screen and (min-width: 768px) {
+.title-about {
+  font-size: 48px;
+}
+.text-subcontainer-about {
+  margin: 50px auto 0;
+}
+.text-one-about {
+  font-size: 23px;
+}
+.text-second-about {
+  font-size: 13px;
+  line-height: 1.15;
+}
+}
 
 /* desktop */
+@media screen and (min-width: 1280px) {
+.text-subcontainer-about {
+  margin: 50px 50px auto;
+  flex-direction: row;
+}
+}
 
 /* #endregion ABOUT US */

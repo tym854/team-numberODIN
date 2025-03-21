@@ -82,6 +82,11 @@ input {
 /* #endregion Общие */
 /* #region ABOUT US */
 /* mob */
+.about {
+border-radius: 24px;
+background-color: #1b414b;
+}
+
 .about-us-container {
   text-align: left;
   padding: 40px 20px;
@@ -90,7 +95,7 @@ input {
   background: #fbfbfb;
   margin: 0 auto;
   border: none;
-  position: relative;
+  /*position: relative;*/
   display: flex;
   flex-direction: column;
   width: 335px;
@@ -131,11 +136,10 @@ input {
 
 .premium-yacht-img {
   position: absolute;
-  border-radius: 0 24px 0 0;
+  /*border-radius: 0 24px 0 0; */
   width: 335px;
   height: 395px;
   top: 380px;
-  position: center;
 }
 
 /* tab */

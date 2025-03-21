@@ -84,7 +84,7 @@ input {
 /* mob */
 .about {
 border-radius: 24px;
-background-color: #1b414b;
+background-color: transparent;
 }
 
 .about-us-container {
@@ -93,9 +93,7 @@ background-color: #1b414b;
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
   background: #fbfbfb;
-  margin: 0 auto;
   border: none;
-  /*position: relative;*/
   display: flex;
   flex-direction: column;
   width: 335px;
@@ -136,7 +134,6 @@ background-color: #1b414b;
 
 .premium-yacht-img {
   position: absolute;
-  /*border-radius: 0 24px 0 0; */
   width: 335px;
   height: 395px;
   top: 380px;

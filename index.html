@@ -14,7 +14,7 @@
     />
 
     <script type="module" crossorigin src="/team-project-YachtJet/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/team-project-YachtJet/assets/index--IuZjtvM.css">
+    <link rel="stylesheet" crossorigin href="/team-project-YachtJet/assets/index-BHsT6JFU.css">
   </head>
   <body>
       <header>
@@ -44,7 +44,68 @@
       <p>/</p>
 
       <p>/</p>
-      <p>/</p>
+      <section class="form-section">
+  <div class="container form-container">
+    <div class="content-wrapper">
+      <h2 class="form-title">Rent a yacht now</h2>
+      <form class="form-wrapper">
+        <input
+          class="form-input"
+          placeholder="Full Name"
+          type="text"
+          name="user-name"
+          required
+          pattern="[A-zА-яІіЇіЄє'_]{2,48}"
+          maxlength="48"
+        />
+        <input
+          class="form-input"
+          placeholder="Email"
+          type="email"
+          name="user-email"
+          required
+          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+        />
+        <input
+          class="form-input"
+          placeholder="Phone number"
+          name="user-tel"
+          type="tel"
+          required
+          pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
+        />
+        <textarea
+          class="form-input"
+          placeholder="Comment"
+          name="user-comment"
+          required
+          maxlength="250"
+        ></textarea>
+        <button class="form-btn" type="submit">Send</button>
+      </form>
+    </div>
+    <picture>
+      <source
+        srcset="/team-project-YachtJet/assets/form-image-desktop@1x-Byzin9eD.jpg 1x, /team-project-YachtJet/assets/form-image-desktop@2x-cKjKcRI3.jpg 2x"
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="/team-project-YachtJet/assets/form-image-tablet@1x-Db7S8P28.jpg 1x, /team-project-YachtJet/assets/form-image-tablet@2x--WZSo3yK.jpg 2x"
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="/team-project-YachtJet/assets/form-image-mobile@1x-CoQdS5zw.jpg 1x, /team-project-YachtJet/assets/form-image-mobile@2x-BE7uXoTU.jpg 2x"
+        media="(max-width: 768px)"
+      />
+      <img
+        class="form-img"
+        src="/team-project-YachtJet/assets/form-image-mobile@1x-CoQdS5zw.jpg"
+        alt="jacht-on-water"
+      />
+    </picture>
+  </div>
+</section>
+
       <p>/</p>
       <div class="modal container" data-modal>
   <div class="modal-logo-area">

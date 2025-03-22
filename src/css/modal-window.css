@@ -70,27 +70,38 @@
     width: 100%;
 }
 
-.modal-nav-link {
-    font-size: 9px;
-    line-height: 1.3;
-    text-transform: uppercase;
-
+.modal-nav-btn {
     background-color: rgba(27, 65, 75, 0.5);
     border-radius: 8px;
     height: 40px;
     width: 91px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border: none;
+    box-shadow: none;
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-nav-link:hover,
-.modal-nav-link:focus {
+.modal-nav-link {
+    width: 100%;
+    height: 100%;
+
+    font-size: 9px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    color: #fbfbfb;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.modal-nav-btn:hover,
+.modal-nav-btn:focus {
     background-color: #1b414b;
 }
+
 
 .modal-socials-area {
     margin-top: auto;

@@ -1,1 +1,222 @@
+.hero-title {
+  max-width: 335px;
+  height: 86px;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 29px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  margin: 0 auto 24px;
+}
 
+.hero-text {
+  max-width: 335px;
+  height: 56px;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.16;
+  text-align: center;
+  color: rgba(251, 251, 251, 0.7);
+}
+
+.hero-section {
+  background-color: #0e1823;
+  padding-top: 198px;
+  padding-bottom: 243px;
+  max-width: 320px;
+  margin: 0 auto;
+  background-image: linear-gradient(
+      360deg,
+      rgba(17, 19, 31, 0.8) 15.05%,
+      rgba(17, 19, 31, 0.8) 75.3%,
+      rgba(17, 19, 31, 0.8) 98.27%
+    ),
+    url('../img/bg-img/yachtjet-mobile.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  border-radius: 15px;
+  padding: 14px 32px;
+  background-color: #1b414b;
+}
+
+.hero-rent-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 38px;
+}
+
+@media screen and (max-width: 767px) and (min-resolution: 2x) {
+  .hero-section {
+    background-image: linear-gradient(
+        360deg,
+        rgba(17, 19, 31, 0.8) 15.05%,
+        rgba(17, 19, 31, 0.8) 75.3%,
+        rgba(17, 19, 31, 0.8) 98.27%
+      ),
+      url('../img/bg-img/yachtjet-mobile@2x.jpg');
+  }
+}
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+
+  .hero-section {
+    padding-top: 200px;
+    padding-bottom: 215px;
+    max-width: 768px;
+    margin: 0 auto;
+    background-image: linear-gradient(
+        360deg,
+        rgba(17, 19, 31, 0.8) 15.05%,
+        rgba(17, 19, 31, 0.8) 75.3%,
+        rgba(17, 19, 31, 0.8) 98.27%
+      ),
+      url('../img/bg-img/yachtjet-tablet.jpg');
+  }
+
+  .hero-title {
+    max-width: 704px;
+    height: 210px;
+    font-size: 70px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+  }
+
+  .hero-text {
+    min-width: 597px;
+    height: 66px;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: center;
+    color: rgba(251, 251, 251, 0.7);
+  }
+
+  .hero-rent-wrap {
+    gap: 48px;
+  }
+
+  .hero-link {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.1;
+    padding: 16px 40px;
+  }
+
+  .hero-link:hover {
+    color: #1b414b;
+    background: #fbfbfb;
+    border-radius: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) and (min-resolution: 2x) {
+  .hero-section {
+    background-image: linear-gradient(
+        360deg,
+        rgba(17, 19, 31, 0.8) 15.05%,
+        rgba(17, 19, 31, 0.8) 75.3%,
+        rgba(17, 19, 31, 0.8) 98.27%
+      ),
+      url('../img/bg-img/yachtjet-tablet@2x.jpg');
+  }
+}
+
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 50px;
+    margin: 0 auto;
+  }
+
+  .hero-section {
+    padding-top: 155px;
+    padding-bottom: 180px;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-image: linear-gradient(
+        360deg,
+        rgba(17, 19, 31, 0.8) 15.05%,
+        rgba(17, 19, 31, 0.8) 75.3%,
+        rgba(17, 19, 31, 0.8) 98.27%
+      ),
+      url('../img/bg-img/yachtjet-desktop.jpg');
+  }
+
+  .hero-title {
+    max-width: 1000px;
+    height: 160px;
+    font-size: 80px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+  }
+
+  .hero-link {
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 1280px) and (min-resolution: 2x) {
+  .hero-section {
+    background-image: linear-gradient(
+        360deg,
+        rgba(17, 19, 31, 0.8) 15.05%,
+        rgba(17, 19, 31, 0.8) 75.3%,
+        rgba(17, 19, 31, 0.8) 98.27%
+      ),
+      url('../img/bg-img/yachtjet-desktop@2x.jpg');
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+
+  .hero-section {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-image: linear-gradient(
+        360deg,
+        rgba(17, 19, 31, 0.8) 15.05%,
+        rgba(17, 19, 31, 0.8) 75.3%,
+        rgba(17, 19, 31, 0.8) 98.27%
+      ),
+      url('../img/bg-img/yachtjet-desktop1440.jpg');
+  }
+}
+
+@media screen and (min-width: 1440px) and (min-resolution: 2x) {
+  .hero-section {
+    background-image: linear-gradient(
+        360deg,
+        rgba(17, 19, 31, 0.8) 15.05%,
+        rgba(17, 19, 31, 0.8) 75.3%,
+        rgba(17, 19, 31, 0.8) 98.27%
+      ),
+      url('../img/bg-img/yachtjet-desktop1440@2x.jpg');
+  }
+}
+
+/* #endregion hero */

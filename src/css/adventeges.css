@@ -1,127 +1,71 @@
-.adventeges-section{display: flex;
+
+ol {
+    list-style-type: none;
+    counter-reset: ol-decoration;
+}
+
+.adventeges-section{
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-@media screen and (min-width:1280px) {
-    .adventeges-section {align-items: start;
-      flex-direction: row;
-      gap: 0;
-        }
-}
+
+
+
+.adventeges-list-conteiner{
+    display: flex;
+    flex-direction: column;}
 
 
 
 
-ol {list-style-type:none;
-    counter-reset: ol-decoration;
-
-}
-.adventeges-list-conteiner{display: flex;
-flex-direction: column;}
-@media screen and (min-width:768px) {
-    .adventeges-list-conteiner{flex-direction: row;
-    flex-wrap: wrap;
-justify-content: center;
-}
-    
-}
-@media screen and (min-width:1280px) {
-    .adventeges-list-conteiner {
-     flex-wrap: nowrap; 
-    }
-
-}
 
 .adventeges-list {
     padding-top: 80px;
     padding-bottom: 80px;
     border-radius: 24px;
     background-color: #1b414b;
-    max-width: 335px;
-}
-@media screen and (min-width:768px) {
-.adventeges-list {
+    max-width: 335px;}
+
+
+
+
+
+
+.adventeges-item-text{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    opacity: 0.8;
+    text-align: start;}
+
+
+
+
+.adventeges-number-list {
+    padding-right:20px;
+    padding-inline-start: 20px;
     display: flex;
-        max-width: 704px;
-        padding-top: 90px;
-        padding-bottom: 90px;
-    }
-}
-@media screen and (min-width:1280px) {
-    .adventeges-list {
-     min-width: 716px;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-    }
-}
-
-
-
-  .adventeges-item-text{
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 1.17;
-        letter-spacing: -0.02em;
-        color: #fbfbfb;
-opacity: 0.8;
-text-align: start;
-}
-
-@media screen and (min-width:768px) {
-.adventeges-item-text {
-       
-        line-height: 1.15;
-  
-    }
-}
+    flex-direction: column;
+    gap: 40px;}
 
 
 
 
-
-
-
-.adventeges-number-list {padding-right:20px;
-padding-inline-start: 20px;
-display: flex;
-flex-direction: column;
-gap: 40px;
-    }
-    @media screen and (min-width:768px) {
-    .adventeges-number-list {
-        padding-right: 32px;
-        padding-left: 32px;
-            flex-direction: row;
-            flex-wrap: wrap;
-            align-items: start;
-            justify-content: center;
-       margin: 0 auto;
-       gap: 32px;
-        }
-    }
     
     
     
-.adventeges-item{display: flex;
-flex-direction: column;
-gap: 18px;
-      
-    }
+.adventeges-item{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
 
- @media screen and (min-width:768px) {
-    .adventeges-item {
-        max-width: 304px;
-        flex-basis: calc((100% - 32px) / 2);
-        }
- }
- @media screen and (min-width:1280px) {
-     .adventeges-item {
-         max-width: 292px;
-         
-     }
- }
+ 
+
 
 
 .adventeges-item::before{
@@ -129,51 +73,145 @@ gap: 18px;
     counter-increment: ol-decoration;
     text-align: start;
     font-weight: 500;
-        font-size: 28px;
-        line-height: 1;
-        letter-spacing: -0.05em;
-        color: #fbfbfb;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    color: #fbfbfb;
 }
- @media screen and (min-width:768px) {
-    .adventeges-item::before{
-        font-size: 32px;
-     }
- }
+
+
+
+
+
 .rounded-recrangle-adventures {
     background-color: rgba(251, 251, 251, 0.1);;
     border-radius: 18px;
     width: 295px;
     height: 2px;}
 
-@media screen and (min-width:768px) {
-    .rounded-recrangle-adventures {
-        width: 304px;
-    }
+
+
+
+.adventeges-photo{
+    margin-top: 20px;
+    border-radius: 24px;
 }
-@media screen and (min-width:1280px) {
-    .rounded-recrangle-adventures {
-        width: 280px;
-    }
-}
-
-
-
-
-
-
+    
+    
+ @media screen and (min-width:768px) {
     .adventeges-photo{
-        margin-top: 20px;
-        border-radius: 24px;}
-                 @media screen and (min-width:768px) {
-                     .adventeges-photo{width: 704px;
-                        height: 424px;
-                 }
-                }
-                                 @media screen and (min-width:1280px) {
-                                     .adventeges-photo {margin-top: 0;
-                                     max-width: 432px;
-                                     height: 424px;
-                                     margin-left: 32px;
-                                     }
-                                 }
-                          
+        width: 704px;
+        height: 424px; } 
+}
+
+ @media screen and (min-width:1280px) {
+    .adventeges-photo {
+        margin-top: 0;
+        max-width: 432px;
+        height: 424px;
+        margin-left: 32px;}
+}
+
+@media screen and (min-width:1280px) {
+    .adventeges-section {
+        align-items: start;
+        flex-direction: row;
+        gap: 0;
+    }
+}
+
+
+@media screen and (min-width:768px) {
+    .adventeges-list-conteiner {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (min-width:1280px) {
+    .adventeges-list-conteiner {
+        flex-wrap: nowrap;
+    }
+}
+
+
+
+@media screen and (min-width:768px) {
+    .adventeges-list {
+        display: flex;
+        max-width: 704px;
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+}
+
+
+@media screen and (min-width:1280px) {
+    .adventeges-list {
+        min-width: 716px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+@media screen and (min-width:768px) {
+    .adventeges-item-text {
+        line-height: 1.15;
+    }
+}
+
+
+@media screen and (min-width:768px) {
+    .adventeges-number-list {
+        padding-right: 32px;
+        padding-left: 32px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: start;
+        justify-content: center;
+        margin: 0 auto;
+        gap: 32px;
+    }
+}
+
+
+@media screen and (min-width:768px) {
+    .adventeges-item {
+        max-width: 304px;
+        flex-basis: calc((100% - 32px) / 2);
+    }
+}
+
+
+@media screen and (min-width:1280px) {
+    .adventeges-item {
+        max-width: 292px;
+    }
+}
+
+
+
+ @media screen and (min-width:768px) {
+     .adventeges-item::before {
+         font-size: 32px;
+     }
+ }
+
+
+
+ @media screen and (min-width:768px) {
+     .rounded-recrangle-adventures {
+         width: 304px;
+     }
+ }
+
+ @media screen and (min-width:1280px) {
+     .rounded-recrangle-adventures {
+         width: 280px;
+     }
+ }

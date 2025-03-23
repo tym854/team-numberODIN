@@ -1,1 +1,201 @@
+/* #region Общие */
+* {
+    box-sizing: border-box;
+}
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    color: #1b414b;
+    background-color: #0e1823;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+input {
+    font-family: inherit;
+}
+
+.container {
+    min-width: 320px;
+    max-width: 375px;
+    padding: 0 19px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 28px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+        padding: 0 50px;
+    }
+}
+
+/* #endregion Общие */
+/* #region ABOUT US */
+/* mob */
+.about {
+    border-radius: 24px;
+    background-color: transparent;
+}
+
+.about-us-container {
+    text-align: left;
+    padding: 40px 20px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    background: #fbfbfb;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    width: 335px;
+    height: 675px;
+}
+
+.title-about {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+}
+
+.text-subcontainer-about {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 40px auto 0;
+}
+
+.text-one-about {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+}
+
+.text-second-about {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: -0.02em;
+    color: #040306;
+    opacity: 0.4;
+}
+
+.premium-yacht-img {
+    position: absolute;
+    width: 335px;
+    height: 395px;
+    top: 380px;
+}
+
+/* tab */
+@media screen and (min-width: 768px) {
+    .title-about {
+        font-size: 48px;
+        width: 536px;
+        margin-left: 32px;
+    }
+
+    .text-subcontainer-about {
+        margin: 50px auto auto 32px;
+        width: 389px;
+    }
+
+    .text-one-about {
+        font-size: 23px;
+    }
+
+    .text-second-about {
+        font-size: 13px;
+        line-height: 1.15;
+    }
+
+    .about-us-container {
+        width: 704px;
+    }
+
+    .premium-yacht-img {
+        width: 704px;
+        height: 470px;
+        top: 481px;
+    }
+}
+
+/* desktop */
+@media screen and (min-width: 1280px) {
+    .title-about {
+        margin: 50px auto auto 50px;
+        width: 537px;
+    }
+
+    .text-subcontainer-about {
+        margin: 50px 50px auto;
+        width: 354px;
+    }
+
+    .about-us-container {
+        width: 1180px;
+        height: 675px;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .premium-yacht-img {
+        top: 360px;
+        width: 1180px;
+        height: 470px;
+    }
+}
+
+/* #endregion ABOUT US */

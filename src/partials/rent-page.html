@@ -1,1 +1,70 @@
-<p>/</p>
+<section class="form-section">
+  <div class="container form-container">
+    <div class="content-wrapper">
+      <h2 class="form-title">Rent a yacht now</h2>
+      <form class="form-wrapper">
+        <input
+          class="form-input"
+          placeholder="Full Name"
+          type="text"
+          name="user-name"
+          required
+          pattern="[A-zА-яІіЇіЄє'_]{2,48}"
+          maxlength="48"
+        />
+        <input
+          class="form-input"
+          placeholder="Email"
+          type="email"
+          name="user-email"
+          required
+          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+        />
+        <input
+          class="form-input"
+          placeholder="Phone number"
+          name="user-tel"
+          type="tel"
+          required
+          pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
+        />
+        <textarea
+          class="form-input"
+          placeholder="Comment"
+          name="user-comment"
+          required
+          maxlength="250"
+        ></textarea>
+        <button class="form-btn button" type="submit">Send</button>
+      </form>
+    </div>
+    <picture>
+      <source
+        srcset="
+          /img/form-image-desktop@1x.jpg 1x,
+          /img/form-image-desktop@2x.jpg 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          /img/form-image-tablet@1x.jpg 1x,
+          /img/form-image-tablet@2x.jpg 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="
+          /img/form-image-mobile@1x.jpg 1x,
+          /img/form-image-mobile@2x.jpg 2x
+        "
+        media="(max-width: 768px)"
+      />
+      <img
+        class="form-img"
+        src="/img/form-image-mobile@1x.jpg"
+        alt="jacht-on-water"
+      />
+    </picture>
+  </div>
+</section>

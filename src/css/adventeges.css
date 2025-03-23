@@ -26,7 +26,8 @@ ol {
     padding-bottom: 80px;
     border-radius: 24px;
     background-color: #1b414b;
-    max-width: 335px;}
+    max-width: 335px;
+    }
 
 
 
@@ -40,7 +41,10 @@ ol {
     letter-spacing: -0.02em;
     color: #fbfbfb;
     opacity: 0.8;
-    text-align: start;}
+    text-align: start;
+    }
+
+
 
 
 
@@ -81,13 +85,13 @@ ol {
 
 
 
-
-
-.rounded-recrangle-adventures {
-    background-color: rgba(251, 251, 251, 0.1);;
+    .rounded-recrangle-adventures {
+    background-color: rgba(251, 251, 251, 0.1);
     border-radius: 18px;
     width: 295px;
-    height: 2px;}
+    height: 2px;
+}
+
 
 
 
@@ -215,3 +219,5 @@ ol {
          width: 280px;
      }
  }
+
+

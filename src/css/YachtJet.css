@@ -12,7 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    border-radius: 24px;
 }
 
 .about-us-container {
@@ -62,7 +62,6 @@
 
 .premium-yacht-img {
     border-radius: 24px;
-    display: cover;
     position: absolute;
     top: 380px;
 }

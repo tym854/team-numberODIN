@@ -3,23 +3,26 @@
 /* #region ABOUT US */
 /* mob */
 .about {
-    border-radius: 24px;
     background-color: transparent;
-    background: linear-gradient(#fbfbfb, transparent);
-    width: 335px;
+    position: relative;
+    margin-bottom: 80px;
 }
 
 .about-us {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .about-us-container {
+    width: 335px;
+    border-radius: 24px;
     text-align: left;
     padding: 40px 20px;
     border-radius: 24px;
-    
+    background: #fbfbfb;
+    height: 675px;
     border: none;
     display: flex;
     flex-direction: column;
@@ -60,10 +63,20 @@
 .premium-yacht-img {
     border-radius: 24px;
     display: cover;
+    position: absolute;
+    top: 380px;
 }
 
 /* tab */
 @media screen and (min-width: 768px) {
+    .about {
+    margin-bottom: 380px;
+    }
+
+    .premium-yacht-img {
+    top: 580px;
+    }
+
     .title-about {
         font-size: 48px;
         width: 536px;
@@ -84,13 +97,21 @@
         line-height: 1.15;
     }
 
-    .about {
+    .about-us-container {
         width: 704px;
     }
 }
 
 /* desktop */
 @media screen and (min-width: 1280px) {
+    .about {
+    margin-bottom: 150px;
+    }
+    
+    .premium-yacht-img {
+        top: 360px;
+    }
+
     .title-about {
         margin: 50px auto auto 50px;
         width: 537px;
@@ -105,7 +126,7 @@
         flex-direction: row;
         align-items: flex-start;
     }
-    .about {
+    .about-us-container {
         width: 1180px;
     }
 }

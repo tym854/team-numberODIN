@@ -114,8 +114,6 @@
     flex-wrap: nowrap;
     gap: 26px;
   }
-  .service-description {
-  }
 
   .reviews-item {
     width: calc((100% - 52px) / 3);

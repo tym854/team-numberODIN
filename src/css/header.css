@@ -1,7 +1,6 @@
 .hero-title {
-  max-width: 335px;
+  width: 335px;
   height: 86px;
-  align-items: center;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 29px;
@@ -10,6 +9,8 @@
   text-align: center;
   color: #fbfbfb;
   margin: 0 auto 24px;
+  position: relative;
+  left:-25px;
 }
 
 .hero-text {
@@ -74,6 +75,10 @@
 
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
+  .hero-title {
+    width: 704px;
+    left: 0;
+  }
   .container {
     max-width: 768px;
     padding: 0 32px;
@@ -145,6 +150,11 @@
 
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1280px) {
+  .hero-title {
+      width: 1001px;
+      left: 0;
+    }
+
   .container {
     max-width: 1280px;
     padding: 0 50px;
@@ -193,6 +203,10 @@
 }
 
 @media only screen and (min-width: 1440px) {
+  .hero-title {
+    width: 1001px;
+  }
+
   .container {
     max-width: 1440px;
   }

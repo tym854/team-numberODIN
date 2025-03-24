@@ -8,15 +8,12 @@
   justify-content: center;
 } */
 
-.reviews {
-  margin-bottom: 80px;
-}
-
 .container-workers-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 80px;
 }
 
 .service-reviews-text {
@@ -74,7 +71,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .reviews {
+  .container-workers-info {
     margin-bottom: 150px;
   }
 

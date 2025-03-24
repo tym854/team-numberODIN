@@ -8,6 +8,10 @@
   justify-content: center;
 } */
 
+.reviews {
+  margin-bottom: 80px;
+}
+
 .container-workers-info {
   display: flex;
   flex-direction: column;
@@ -70,6 +74,10 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .reviews {
+    margin-bottom: 150px;
+  }
+
   .service-reviews-text {
     max-width: 704px;
     text-align: center;
@@ -77,6 +85,7 @@
     font-size: 48px;
     max-width: 700px;
   }
+
   .service-description {
     margin: 0 auto;
     max-width: 543px;

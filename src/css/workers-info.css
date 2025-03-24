@@ -7,6 +7,14 @@
   gap: 20px;
   justify-content: center;
 } */
+
+.container-workers-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .service-reviews-text {
   max-width: 316px;
   text-align: center;
@@ -16,8 +24,6 @@
   letter-spacing: -0.02em;
   color: #fbfbfb;
   margin-bottom: 25px;
-  justify-content: center;
-  align-items: center;
 }
 
 .service-description {

@@ -112,10 +112,16 @@
         max-width: 1080px;
         padding: 4px 30px;
     }
+    .header-logo {
+    color: #1b414b;
+    }
 }
 
 @media screen and (min-width: 1440px) {
     .header-container {
         max-width: 1240px;
+    }
+    .header-logo {
+        color: #1b414b;
     }
 }

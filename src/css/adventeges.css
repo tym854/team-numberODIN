@@ -9,13 +9,15 @@ ol {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 0;
 }
 
 
 
-.adventeges-list-conteiner{
+.adventeges-list-conteiner {
     display: flex;
-    flex-direction: column;}
+    flex-direction: column;
+    }
 
 
 
@@ -105,10 +107,19 @@ ol {
  @media screen and (min-width:768px) {
     .adventeges-photo{
         width: 704px;
-        height: 424px; } 
+        height: 424px; 
+    } 
+    .adventeges-list-conteiner {
+        padding-bottom: 150px;
+    }
 }
+    
 
  @media screen and (min-width:1280px) {
+    .adventeges-list-conteiner {
+        padding-bottom: 150px;
+    }
+
     .adventeges-photo {
         margin-top: 0;
         max-width: 432px;

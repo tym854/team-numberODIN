@@ -5,7 +5,8 @@
 .about {
     background-color: transparent;
     position: relative;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
+    top: -59px;
 }
 
 .about-us {
@@ -70,6 +71,7 @@
 @media screen and (min-width: 768px) {
     .about {
     margin-bottom: 380px;
+    top: -67px;
     }
 
     .premium-yacht-img {
@@ -104,7 +106,8 @@
 /* desktop */
 @media screen and (min-width: 1280px) {
     .about {
-    margin-bottom: 150px;
+    margin-bottom: 160px;
+    top: -35px;
     }
     
     .premium-yacht-img {

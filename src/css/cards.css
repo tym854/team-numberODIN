@@ -1,5 +1,5 @@
 .yacht-section {
-  padding: 80px 20px;
+  padding: 21px 20px 80px;
   background: #0e1823;
 }
 
@@ -95,7 +95,7 @@
 
 @media (min-width: 768px) and (max-width: 1279px) {
   .yacht-section {
-    padding: 150px 20px;
+    padding: 83px 20px 150px;
   }
 
   .cards-container {
@@ -190,7 +190,7 @@
     max-width: 177px;
   }
   .yacht-section {
-    padding: 150px 20px;
+    padding: 115px 20px 150px;
   }
 }
 

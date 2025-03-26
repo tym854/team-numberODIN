@@ -129,7 +129,8 @@
     padding: 16px 40px;
   }
 
-  .hero-link:hover {
+  .hero-link:hover,
+  .hero-link:focus {
     color: #1b414b;
     background: #fbfbfb;
     border-radius: 15px;

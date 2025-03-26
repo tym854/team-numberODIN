@@ -20,3 +20,7 @@
 @import url('./workers-info.css');
 @import url('./modal-window.css');
 @import url('./footer.css');
+
+html {
+  scroll-behavior: smooth;
+}
